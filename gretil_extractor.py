@@ -6,7 +6,7 @@ input_folder = " "   # path of the input folder location which contains the data
 output_folder = " "  # output path where the txt files are to be saved
 os.makedirs(output_folder, exist_ok=True)
 
-# regex to detect sanskrit letters
+# regex to detect sanskrit IAST-encoded characters
 sanskrit_re = re.compile(r"[āīūṛṝḷṅñṭḍṇśṣḥ]")
 
 for filename in os.listdir(input_folder):
