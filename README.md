@@ -8,7 +8,7 @@ It skips the metadata block (editorial notes, copyright info, encoding tables) a
 ## Features
 
 - **Skips front matter:** ignores everything before the line  
-  `For further information see: http://gretil.sub.uni-goettingen.de/gretil.htm`  
+  `http://gretil.sub.uni-goettingen.de/gretil.htm`  
 - **HTML parsing with BeautifulSoup:** strips all tags and keeps plain text  
 - **IAST Sanskrit filtering:** automatically removes most English-only lines  
 - **Per-file output:** saves each `.htm` as a `.txt` with the same base filename
